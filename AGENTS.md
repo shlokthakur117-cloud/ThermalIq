@@ -111,7 +111,7 @@ Captures historical underinvestment and infrastructure equity needs.
   $$\text{EGS}_{\text{raw}} = 0.40 \times \text{gid} + 0.35 \times \text{cid\_inverted} + 0.25 \times \text{hii\_inverted}$$
 - **Presentation Scale**: $\text{EGS} = \text{round}(\text{EGS}_{\text{raw}} \times 100, 1)$ (Range: $0 - 100$)
 - **Input Variables & Normalization Methods**:
-  - `gid`: Green Investment Deficit (historical tree canopy/park deficit, $[0.0, 1.0]$).
+  - `gid`: Green Investment Deficit (historical deficit of municipal parks, shade trees, and green corridors, $[0.0, 1.0]$).
   - `cid_inverted`: Community Infrastructure Deficit (inverted per-capita public water points and shading structures, $[0.0, 1.0]$).
   - `hii_inverted`: Heat Intervention Inverted index (lack of prior cooling infrastructure subsidies in the district, $[0.0, 1.0]$).
 
